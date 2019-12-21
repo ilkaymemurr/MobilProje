@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#83C2F5"
     tools:context=".uye_ekle">
 
     <EditText
@@ -83,8 +84,9 @@
 
     <Button
         android:id="@+id/btn_tamamla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:background="#FFC107"
         android:text="Tamamla"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

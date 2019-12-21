@@ -12,10 +12,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Database extends SQLiteOpenHelper {
-    private  static final String veritabani_adi="veritabani_uye";
+
+    private  static final String veritabani_adi="veritabani_uyem";
     private  static final  String uye_tablosu="tb1_Ogrenci";
     private  static  final int veritabani_versiyonu=1;
-
 
 
 

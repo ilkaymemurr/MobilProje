@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Button uye_ekle=findViewById(R.id.button2);
         final Button uye_listele=findViewById(R.id.button3);
+        final Button etkinlik_ekle=findViewById(R.id.button4);
+        final Button etkinlik_listele=findViewById(R.id.button5);
 
         uye_ekle.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,5 +33,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        etkinlik_ekle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,etkinlik_ekle.class);
+                startActivity(intent);
+            }
+        });
+        etkinlik_listele.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,etkinlik_listele.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

@@ -25,7 +25,7 @@ public class uye_listele extends AppCompatActivity {
         for(Uye _uye:uyeList)
         {
 String icerik="";
-icerik="Adı: "+_uye.getAd() + "Tel: "+_uye.getTel() + "Okul No: "+_uye.getOkulNo()+"TC: "+_uye.getTc()+"Bölüm: "+_uye.getBolum()+"\n\n";
+icerik="<- Güçlüyüz Çünkü Sen Varsın! ->\n\nAdı: "+_uye.getAd() + "\n\nTel: "+_uye.getTel() + "\n\nOkul No: "+_uye.getOkulNo()+"\n\nTC: "+_uye.getTc()+"\n\nBölüm: "+_uye.getBolum()+"\n\n";
 sb.append(icerik);
         }
         txtUyeListesi.setText(sb);
